@@ -1,6 +1,7 @@
 import Moviepng from "./assets/Movies.png"
 import Netflixpng from "./assets/Netflix.png"
 import Foodvillapng from "./assets/Foodvilla.png"
+import portfolio from "./assets/Portfolio.png"
 
 export const techStack = [
 
@@ -99,5 +100,11 @@ export const Project = [
     Title:"Netflix2.0",
     description:"It's a clone of Polpular Steaming Service Like Netflix",
     Github:"https://github.com/RiteshTiwari554/Netflix-2.0",
+  },
+  {
+    Image: portfolio,
+    Title:"MyPortfolio",
+    description:"This is a Portfolio website Which reflects about me ",
+    Github:"https://github.com/RiteshTiwari554/MyPortfolio",
   },
 ]
