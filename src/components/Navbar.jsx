@@ -18,10 +18,6 @@ const Navbar = () => {
       route: "about",
     },
     {
-      name: "Services",
-      route: "services",
-    },
-    {
       name: "Projects",
       route: "projects",
     },
