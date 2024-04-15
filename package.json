@@ -1,5 +1,5 @@
 {
-  "name": "Ritesh_portfolio",
+  "name": "ritesh_portfolio",
   "homepage": "https://RiteshTiwari554.github.io/",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build --no-warnings",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
