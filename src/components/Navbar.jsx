@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { Link } from "react-scroll";
 import { ThemeContext } from "../themeProvider";
 import { motion, AnimatePresence } from "framer-motion";
-import Hamburger from "hamburger-react";
+import  {slide as Menu} from "react-burger-menu";
 
 const Navbar = () => {
   const theme = useContext(ThemeContext);
@@ -119,7 +119,7 @@ const Navbar = () => {
               )}
             </div>
 
-            <Hamburger
+            <Menu
               toggled={toggle}
               size={22}
               duration={0.8}
